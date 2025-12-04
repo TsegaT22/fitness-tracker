@@ -1,2 +1,4 @@
 # fitness-tracker
 Web application that allows user to create a weekly workout routine and diet plan.
+Demo Video Link:
+https://uncg-my.sharepoint.com/:v:/g/personal/tstakele_uncg_edu/IQC7IJRBKhZLQKBZgwqsArY1AUTNUlMGbOXndqjU7py6pTI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=hqKF1j
