@@ -2,19 +2,19 @@ import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import AddWorkout from './pages/AddWorkout'
 import ViewWorkouts from './pages/ViewWorkouts'
-import Navbar from './components/Navbar'
+import NavBar from './components/NavBar'
 
 
 
 function App() {
   return (
     <div>
-      <Navbar />
+      <NavBar />
       <main style={{ padding: '20px' }}>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/add-workout' element={<AddWorkout />} />
-          <Route path='/view-workouts' element={<ViewWorkouts />} />
+          <Route path='/add' element={<AddWorkout />} />
+          <Route path='/workouts' element={<ViewWorkouts />} />
         </Routes>
       </main>
     </div>

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-const API_BASE = "http://localhost:5000";
+const API_BASE = "http://localhost:5050";
 
 const ViewWorkouts = () => {
     const [workouts, setWorkouts] = useState([]);
@@ -25,7 +25,7 @@ const ViewWorkouts = () => {
     return (
         <div>
             <h2>History</h2>
-            <button onClick={getWorkouts} style={{ marginBottome: "20px"}}>Refresh</button>
+            <button onClick={getWorkouts} style={{ marginBottom: "20px"}}>Refresh</button>
 
             {loading ? (
                 <p>Loading workouts...</p>

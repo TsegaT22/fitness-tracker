@@ -19,6 +19,7 @@ app.get("/workouts", async (req, res) => {
 });
 
 app.post("/workouts", async (req, res) => {
+    console.log("POST /workouts hit");
     try {
         const {workout_name, sets, reps, weight } = req.body;
 

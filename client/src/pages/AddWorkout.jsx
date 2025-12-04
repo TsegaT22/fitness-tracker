@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const API_BASE = "http://localhost:5000";
+const API_BASE = "http://localhost:5050";
 
 const AddWorkout = () => {
     const [workoutName, setWorkoutName] = useState('');
